@@ -17,6 +17,7 @@ echo "$UN" | grep sun50iw6 && sbcEnv=orangepiEnv.txt
 sudo rm /etc/X11/xorg.conf.d/50-fbdev.conf
 sudo rm /etc/X11/xorg.conf.d/51* 
 sudo rm /etc/X11/xorg.conf.d/52* 
+sudo rm /etc/X11/xorg.conf.d/53*
 
 sudo rm /boot/overlay-user/sun50i-h6-st7796s.dtbo
 

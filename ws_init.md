@@ -4,7 +4,7 @@
 ```
 cd ~ 
 rm -rf fb_st7796s
-git clone https://github.com/evgs/fb_st7796s.git
+git clone https://github.com/Mikaru14/fb_st7796s.git
 cd fb_st7796s
 git fetch --all
 git checkout ws_init
@@ -21,6 +21,6 @@ git pull
 ```
 cd ~ 
 rm -r fb_st7796s
-git clone https://github.com/evgs/fb_st7796s.git
+git clone https://github.com/Mikaru14/fb_st7796s.git
 fb_st7796s/install.sh
 ```

@@ -29,7 +29,7 @@ echo "$UN" | grep 5.10.76-sun50iw6 && LHEADERS=linux-headers-current-sun50iw6
 cd $SPATH
 
 echo "Installing overlay..."
-cp $SPATH/dts/sun50i-h6-st7796s-landscape.dts /tmp/sun50i-h6-st7796s.dts 
+cp $SPATH/dts/sun50i-h6-st7796s-upsidedown.dts /tmp/sun50i-h6-st7796s.dts 
 sudo $OVL /tmp/sun50i-h6-st7796s.dts || die "Error installing overlay"
 
 
@@ -39,6 +39,6 @@ sudo rm /etc/X11/xorg.conf.d/51*
 sudo rm /etc/X11/xorg.conf.d/52*
 sudo rm /etc/X11/xorg.conf.d/53*
 
-sudo cp $SPATH/X11/xorg.conf.d/52* /etc/X11/xorg.conf.d
+sudo cp $SPATH/X11/xorg.conf.d/53* /etc/X11/xorg.conf.d 
 
 echo "Your need reboot your SBC to activate module"

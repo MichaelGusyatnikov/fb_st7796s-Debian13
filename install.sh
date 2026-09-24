@@ -5,7 +5,7 @@
 
 ##### This script should be installed AFTER KlipperScreen
 
-SOURCES="https://github.com/evgs/fb_st7796s.git"
+SOURCES="https://github.com/Mikaru14/fb_st7796s.git"
 
 die() { echo "$*" 1>&2 ; exit 1; }
 
@@ -59,6 +59,7 @@ sudo systemctl stop KlipperScreen.service
 sudo rm /etc/X11/xorg.conf.d/50-fbturbo.conf
 sudo rm /etc/X11/xorg.conf.d/51* 
 sudo rm /etc/X11/xorg.conf.d/52* 
+sudo rm /etc/X11/xorg.conf.d/53*
 sudo apt remove xserver-xorg-video-fbturbo
 sudo apt install xserver-xorg-video-fbdev
 
