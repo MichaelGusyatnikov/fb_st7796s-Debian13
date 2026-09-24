@@ -5,7 +5,7 @@
 
 ##### This script should be installed AFTER KlipperScreen
 
-SOURCES="https://github.com/Mikaru14/fb_st7796s.git"
+SOURCES="https://github.com/Mikaeru14/fb_st7796s.git"
 
 die() { echo "$*" 1>&2 ; exit 1; }
 
